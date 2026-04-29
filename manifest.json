@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Page Capture",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "현재 페이지를 HTML로 캡처하여 저장합니다",
   "permissions": [
     "activeTab",

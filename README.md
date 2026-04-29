@@ -1,10 +1,10 @@
-# Page Capture Extension (v1.0.12)
+# Page Capture Extension (v1.0.13)
 
 현재 웹 페이지를 스타일과 이미지가 포함된 **단일 HTML 파일**로 캡처하여 저장하는 크롬 익스텐션입니다.
 
 ## 🚀 주요 기능
-- **MHTML 기반 복원:** Chrome DevTools Protocol(CDP)을 사용하여 페이지의 모든 리소스를 캡처합니다.
-- **Single HTML 변환:** MHTML 데이터를 분석하여 CSS와 이미지를 인라이닝(Inlining) 처리, 단일 `.html` 파일로 변환합니다.
+- **HTML 기반 복원:** Chrome DevTools Protocol(CDP)을 사용하여 페이지의 모든 리소스를 캡처합니다.
+- **Single HTML 변환:** 데이터를 분석하여 CSS와 이미지를 인라이닝(Inlining) 처리, 단일 `.html` 파일로 변환합니다.
 - **오프라인 열람:** 별도의 리소스 파일 없이 저장된 HTML 파일 하나만으로 페이지를 완벽하게 볼 수 있습니다.
 - **다크 모드 UI:** 현대적이고 세련된 인터페이스를 제공합니다.
 
