@@ -7,6 +7,10 @@ async function init() {
   const statusRes = await chrome.runtime.sendMessage({ type: "GET_STATUS" });
   toggleSwitch.checked = statusRes.isEnabled;
   updateUI(statusRes.isEnabled);
+  
+  // 버전 표시 자동 업데이트
+  const manifest = chrome.runtime.getManifest();
+  document.getElementById("version").textContent = `v${manifest.version}`;
 }
 
 // UI 상태 업데이트
